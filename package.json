@@ -1,0 +1,11 @@
+{
+  "name": "kanban-task-management-app",
+  "version": "1.0.0",
+  "description": "Streamlined Kanban Task Management Application with React, Node.js, and PostgreSQL (Neon)",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "start": "npm --prefix server start",
+    "build": "npm --prefix client run build"
+  }
+}
